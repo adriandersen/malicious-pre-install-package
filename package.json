@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "bash suspiciousfile.txt",
+    "postinstall": "calc.exe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
